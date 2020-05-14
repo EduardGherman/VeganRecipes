@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com//dd3d2ad0fd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>VRecipes</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <header class="text-center text-success my-4">
+            <h1 class="mb-4">Vegan Recipes</h1>
+            <form class="search">
+                <input type="text" class="form-control m-auto" name="search" placeholder="search recipes" />
+            </form>
+        </header>
+
+        <ul class="list-group vrecipes mx-auto text-danger">
+            <li class="list-group-item d-flex justify-content-between alight-items-center">
+                <span>cashew cheese</span>
+                <i class="far fa-trash-alt delete"></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between alight-items-center">
+                <span>omlette with mushrooms and tomatos</span>
+                <i class="far fa-trash-alt delete"></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between alight-items-center">
+                <span>cookie bites</span>
+                <i class="far fa-trash-alt delete"></i>
+            </li>
+        </ul>
+
+        <form class="add text-center my-4">
+            <label class="text-success">Add a new recipe...</label>
+            <input class="form-control m-auto" type="text" name="add" />
+        </form>
+
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

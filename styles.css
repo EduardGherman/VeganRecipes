@@ -1,0 +1,27 @@
+body{
+    background: linear-gradient(110deg, rgb(66, 245, 110) 50%,
+    rgb(236, 165, 11) 80%);
+}
+
+.container{
+    max-width: 400px;
+}
+
+input[type=text],
+input[type=text]:focus{
+    color: rgb(233, 19, 19);
+    border: none;
+    background: rgba(216, 22, 22, 0.2);
+    max-width: 400px;
+}
+
+.vrecipes li{
+    background: rgba(19, 200, 13, 0.1) 40%;
+}
+
+.delete{
+    cursor: pointer;
+}
+.filtered{
+    display: none !important;
+}
